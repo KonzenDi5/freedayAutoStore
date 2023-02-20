@@ -131,6 +131,10 @@ body {
     width: 100%;
     height: 400px;
   }
+  .cabecalho{
+    color: black;
+    width: 100%;
+  }
 }
 h2 {
   color: rgb(255, 255, 255);
