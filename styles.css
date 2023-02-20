@@ -121,6 +121,15 @@ body {
   flex-direction: row;
   padding: 20px;
 }
+
+@media (max-width: 500px) {
+  .lancamentos{
+    flex-direction: column;
+  }
+  .detalhes-carro{
+    font-family: 10px;
+  }
+}
 h2 {
   color: rgb(255, 255, 255);
   text-shadow: black 0.1em 0.1em 0.2em
