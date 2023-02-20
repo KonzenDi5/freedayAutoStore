@@ -126,6 +126,9 @@ body {
   *{
     overflow-x: hidden;
   }
+  .container{
+    width: 100%;
+  }
   .lancamentos{
     flex-direction: column;
   }
@@ -138,6 +141,8 @@ body {
   .cabecalho{
     color: black;
     width: 100%;
+    height: 300px;
+    flex-direction: column;
   }
 }
 h2 {
