@@ -128,6 +128,8 @@ body {
   }
   .detalhes-carro{
     font-family: 10px;
+    width: 100%;
+    height: 400px;
   }
 }
 h2 {
