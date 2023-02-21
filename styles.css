@@ -271,3 +271,23 @@ h2 {
   color: white;
   border-radius: 10px;
 }
+.comprar{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.btn{
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.397);
+  border-radius: 10px;
+  color: white;
+  padding: 2px;
+  max-width: 70px;
+  border: none;
+  animation: all 0.5s;
+}
+.btn:hover{
+  transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}

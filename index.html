@@ -1,134 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FREEDAY AutoStore</title>
-    <script src="scripts.js"></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="cabecalho">
-        <div class="logo">
-          <img class="logo" src="logo.png" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FREEDAY AutoStore</title>
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="cabecalho">
+      <div class="logo"><img class="logo" src="logo.png" alt="logo"></div>
+      <div class="button2">
+        <button class="home">Home</button> <button class="veiculos">Veículos</button>
+      </div>
+      <div class="pesquisarCarro">
+        <input class="pesquisa" placeholder="Qual carro procura?"> <button class="pesquisa-botao"><img class="lupa" src="lupa.png.png" alt="lupa"></button>
+      </div>
+    </div>
+    <div class="lancamentos">
+      <h2>Lançamento:</h2>
+      <div class="carro-circle">
+        <img class="carro" src="carro.png" alt="carro">
+        <div class="circle"></div>
+      </div>
+      <div class="detalhes-carro">
+        <h2>Virtus.</h2>
+        <p>A sofisticação do Novo Virtus está nos detalhes: design refinado com dianteira e traseira mais imponentes, faróis e lanternas em LED em todas as versões, motor TSI, tecnologia de ponta e conforto.</p>
+      </div>
+    </div>
+    <div class="veiculos-a-venda">
+      <h2>Veiculos a venda:</h2>
+      <div class="primeiraLinha">
+        <div class="veic-1">
+          <img class="audi" src="content/audi.webp" alt="audi">
+          <div class="comprar">
+            <p>AUDI A6 2022<br>
+            <br>
+            R$ 870.900,00</p><button class="btn">COMPRAR</button>
+          </div>
         </div>
-        <div class="button2">
-          <button class="home">Home</button>
-
-          <button class="veiculos">Veículos</button>
+        <div class="veic-2">
+          
+            <img class="camaro" src="content/camaro.jpeg" alt="camaro">
+            <div class="comprar">
+            <p>CAMARO 2021 POWER SHIFT<br>
+            ACEITAMOS PIX!<br>
+            R$ 160.900,00</p><button class="btn">COMPRAR</button>
+          </div>
         </div>
-        <div class="pesquisarCarro">
-          <input class="pesquisa" placeholder="Qual carro procura?" />
-
-          <button class="pesquisa-botao">
-            <img class="lupa" src="lupa.png.png" />
-          </button>
+        <div class="veic-3">
+          
+            <img class="corvete" src="content/corvete.jpg" alt="corvete">
+            <div class="comprar">
+            <p>CORVETE V8 2022 DE PISTA<br>
+            ACEITAMOS PIX!<br>
+            R$ 670.900,00</p><button class="btn">COMPRAR</button>
+          </div>
         </div>
       </div>
-      <div class="lancamentos">
-        <h2>Lançamento:</h2>
-        <div class="carro-circle">
-          <img class="carro" src="carro.png" />
-          <div class="circle"></div>
-        </div>
-        <div class="detalhes-carro">
-          <h2>Virtus.</h2>
-          <p>
-            A sofisticação do Novo Virtus está nos detalhes: design refinado com
-            dianteira e traseira mais imponentes, faróis e lanternas em LED em
-            todas as versões, motor TSI, tecnologia de ponta e conforto.
-          </p>
-        </div>
-      </div>
-      <div class="veiculos-a-venda">
-        <h2>Veiculos a venda:</h2>
-        <div class="primeiraLinha">
-          <div class="veic-1">
-            <img class="audi" src="content/audi.webp" />
-            <p>
-              AUDI A6 2022 COMPLETO <br />
-              ACEITAMOS PIX! <br />
-              R$ 870.900,00
-            </p>
+      <div class="segundaLinha">
+        <div class="veic-4">
+          
+            <img class="lambo" src="content/lambo.jpg" alt="lambo">
+            <div class="comprar">
+            <p>LAMBORGHINI ELEMENTUM 2019<br>
+            <br>
+            R$ 1.990.900,00</p><button class="btn">COMPRAR</button>
           </div>
-          <div class="veic-2">
-            <img class="camaro" src="content/camaro.jpeg" />
-            <p>
-              CAMARO 2021 POWER SHIFT <br />
-              ACEITAMOS PIX! <br />
-              R$ 160.900,00
-            </p>
-          </div>
-          <div class="veic-3">
-            <img class="corvete" src="content/corvete.jpg" />
-            <p>
-              CORVETE V8 2022 DE PISTA <br />
-              ACEITAMOS PIX! <br />
-              R$ 670.900,00
-            </p>
-          </div>
-        </div>
-        <div class="segundaLinha">
-          <div class="veic-4">
-            <img class="lambo" src="content/lambo.jpg" />
-            <p>
-              LAMBORGHINI ELEMENTUM 2019 DO F&F 4 <br />
-              ACEITAMOS PIX! <br />
-              R$ 1.990.900,00
-            </p>
           </div>
           <div class="veic-5">
-            <img class="i30" src="content\i30.webp" />
-            <p>
-              HYUNDAI IONIC 2023 <br />
-              ACEITAMOS PIX! <br />
-              R$ 105.900,00
-            </p>
+            <img class="i30" src="content/i30.webp" alt="i30">
+            <div class="comprar">
+              <p>HYUNDAI IONIC 2023<br>
+              ACEITAMOS PIX!<br>
+              R$ 105.900,00</p><button class="btn">COMPRAR</button>
+            </div>
           </div>
           <div class="veic-6">
-            <img class="civic" src="content\civic.webp" />
-            <p>
-              CIVIC G10 2019 <br />
-              ACEITAMOS PIX! <br />
-              R$ 82.900,00
-            </p>
+            <img class="civic" src="content/civic.webp" alt="civic">
+            <div class="comprar">
+              <p>CIVIC G10 2019<br>
+              ACEITAMOS PIX!<br>
+              R$ 82.900,00</p><button class="btn">COMPRAR</button>
+            </div>
           </div>
         </div>
         <div class="terceiraLinha">
           <div class="veic-7">
-            <img class="pulse" src="content\pulse.jpg" />
-            <p>
-              FIAT PULSE 2022 COMPLETO <br />
-              ACEITAMOS PIX! <br />
-              R$ 100.900,00
-            </p>
+            <img class="pulse" src="content/pulse.jpg" alt="pulse">
+            <div class="comprar">
+              <p>FIAT PULSE 2022 COMPLETO<br>
+              <br>
+              R$ 100.900,00</p><button class="btn">COMPRAR</button>
+            </div>
           </div>
           <div class="veic-8">
-            <img class="trailblazer" src="content\trailblazer.jpg" />
-            <p>
-              TRAILBLAZER GM 2022 COMPLETA <br />
-              ACEITAMOS PIX! <br />
-              R$ 120.900,00
-            </p>
+            <img class="trailblazer" src="content/trailblazer.jpg" alt="trailblazer">
+            <div class="comprar">
+              <p>TRAILBLAZER GM 2022 COMPLETA<br>
+              ACEITAMOS PIX!<br>
+              R$ 120.900,00</p><button class="btn">COMPRAR</button>
+            </div>
           </div>
           <div class="veic-9">
-            <img class="strada" src="content\strada.webp" />
-            <p>
-              FIAT STRADA 2022 COMPLETA <br />
-              ACEITAMOS PIX! <br />
-              R$ 92.900,00
-            </p>
+            <img class="strada" src="content/strada.webp" alt="strada">
+            <div class="comprar">
+              <p>FIAT STRADA 2022 COMPLETA<br>
+              ACEITAMOS PIX!<br>
+              R$ 92.900,00</p><button class="btn">COMPRAR</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
