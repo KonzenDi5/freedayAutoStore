@@ -14,7 +14,7 @@ body {
       linear,
       left top,
       left bottom,
-      from(rgb(255, 235,0,1)),
+      from(rgb(255, 235, 0, 1)),
       to(rgb(255, 145, 0))
     )
     fixed;
@@ -44,13 +44,6 @@ body {
 .logo {
   height: 150px;
   cursor: pointer;
-}
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  width: 100vw;
-  margin-right: 20px;
 }
 
 .button2 {
@@ -123,35 +116,79 @@ body {
 }
 
 @media (max-width: 500px) {
-  *{
-    overflow-x: hidden;
+  html, body{
+    max-width: 100%;
   }
   .container{
-    width: 100%;
+    max-width: 100%;
   }
-  .lancamentos{
-    flex-direction: column;
+
+  .logo {
+    width: 200px;
+    margin-top: -10px;
   }
-  .detalhes-carro{
-    font-family: 10px;
-    width: 100%;
-    height: 400px;
-    margin-top: 300px;
-  }
-  .cabecalho{
-    color: black;
-    width: 100%;
-    height: 700px;
-    flex-direction: column;
-    margin: 3px;
-  }
+ 
+.button2{
+  margin-left: 50%;
+  margin-bottom: 10px;
 }
-h2 {
-  color: rgb(255, 255, 255);
-  text-shadow: black 0.1em 0.1em 0.2em
+.carro {
+  
+  max-width: 350px;
+  max-height: 230px;
+  margin-left: 0;
+}
+.circle {
+  max-width: 350px;
+  max-height: 350px;
+  position: inherit;
+  margin-left: 0;
 }
 .carro-circle {
-  margin-left: -300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.lancamentos {
+  display: flex;
+  flex-direction: column;
+}
+.detalhes-carro {
+  width: 300px;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  margin: 0;
+  padding: 10px;
+}
+.veiculos-a-venda{
+  margin-left: -14px;
+  
+}
+.veic-1,
+.veic-2,
+.veic-3,
+.veic-4,
+.veic-5,
+.veic-6,
+.veic-7,
+.veic-8,
+.veic-9 {
+  max-width: 350px;
+  font-size: 12px;
+}
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.carro-circle {
   display: flex;
   flex-direction: row;
   width: 100vw;
@@ -163,13 +200,13 @@ h2 {
   width: 500px;
   height: 500px;
   margin-top: 70px;
-  margin-left: -100px;
+  margin-left: -450px;
 }
 .carro {
   height: 350px;
   width: 600px;
   position: absolute;
-  margin-left: 100px;
+  margin-left: -200px;
   margin-top: 160px;
 }
 
